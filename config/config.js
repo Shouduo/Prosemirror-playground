@@ -8,17 +8,11 @@ const isDev = process.env.NODE_ENV === 'development';
 export default defineConfig({
   alias: {
     tooltip: '@/components/common/Tooltip',
-    select: '@/components/common/Select',
     picker: '@/components/common/Picker',
-    dialog: '@/components/common/Dialog',
-    message: '@/components/common/message',
-    notify: '@/components/common/notify',
     dropdown: '@/components/common/Dropdown',
     menu: '@/components/common/Menu',
     tabs: '@/components/common/Tabs',
-    editor: '@/components/modules/editor',
   },
-  favicon: '/images/Logo-white.svg',
   nodeModulesTransform: {
     type: 'none',
   },
